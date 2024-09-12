@@ -1,0 +1,30 @@
+.circular-progress-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.circular-progress {
+  transform: rotate(-90deg);
+}
+
+.background-circle,
+.progress-circle {
+  fill: none;
+}
+
+.background-circle {
+  stroke: #e0e0e0; /* Background color of the circle */
+}
+
+.progress-circle {
+  stroke: #eb592a; /* Color of the progress */
+  stroke-linecap: round; /* Make the progress ends round */
+}
+
+.percentage-text {
+  position: absolute;
+  font-size: 14px;
+  /* font-weight: bold; */
+}
