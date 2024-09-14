@@ -1,6 +1,6 @@
 import Category from "@/components/dashboard/Category";
-const baseUrl = process.env.BASE_URL;
-const baseUrl2 = process.env.BASE_URL_2;
+const baseUrl = process.env.NEXT_PUBLIC_BASE_URL;
+const baseUrl2 = process.env.NEXT_PUBLIC_BASE_URL_2;
 export const EndPoint = {
   LOGIN_API: `${baseUrl}/employee/login/`,
   SIGNUP_API: `${baseUrl}/employee/signup/`,
